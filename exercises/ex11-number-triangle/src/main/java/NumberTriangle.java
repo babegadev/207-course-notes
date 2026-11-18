@@ -186,11 +186,6 @@ public class NumberTriangle {
     String line = br.readLine();
     while (line != null) {
 
-      // TODO: process the line. Splitting it on spaces gives you the numbers in
-      //       this row; make a NumberTriangle for each one, then wire this row up
-      //       as the children of the previous row. Remember the aliasing: the
-      //       right child of one node is the left child of the next node over.
-
       // read the next line
       String[] numbers = line.split(" ");
 
